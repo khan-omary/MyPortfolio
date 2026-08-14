@@ -1,0 +1,151 @@
+.contact {
+    width: 100%;
+    padding: 1rem;
+    margin-top: 5rem;
+    /* margin-bottom: 1rem; */
+}
+
+.contact-title {
+    text-align: center;
+    margin-bottom: 4rem;
+    font-size: 1.33rem;
+}
+
+.contact-title span {
+    color: rgb(0, 237, 0);
+}
+
+.contact-title p {
+    font-size: 1.2rem;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 2rem;
+    padding: 1rem 3rem;
+}
+
+.contact-form {
+    width: 45%;
+    min-height: 20rem;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid gray;
+    border-radius: 2rem;
+    padding: 1.5rem 2rem;
+}
+
+.contact-link {
+    width: 45%;
+    min-height: 20rem;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    padding: 1.5rem 2rem;
+}
+
+.contact-form input {
+    padding: 0.7rem;
+    border: 1px solid gray;
+    border-radius: 6px;
+    margin-bottom: 0.7rem;
+    margin-top: 0.2rem;
+    background: rgb(76, 76, 76);
+    color: white;
+}
+
+.contact-form textarea {
+    min-height: 100px;
+    padding: 0.7rem;
+    border: 1px solid gray;
+    border-radius: 6px;
+    background: rgb(76, 76, 76);
+    color: white;
+    resize: vertical;
+}
+
+.contact-form .send-button {
+    display: block;
+    width: 100%;
+    padding: 0.8rem;
+    margin-top: 1.4rem;
+    border: none;
+    border-radius: 6px;
+    background: rgb(0, 237, 0);
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.contact-form .send-button:hover {
+    background: rgb(0, 200, 0);
+}
+
+.contact-link-card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.7rem;
+}
+
+.link-icon {
+    font-size: 1.5rem;
+    color: rgb(0, 237, 0);
+}
+
+.social-card {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.8rem;
+
+}
+
+.social-accounts {
+    display: flex;
+    gap: 1rem;
+    color: rgb(0, 237, 0);
+    font-size: 1.4rem;
+    margin-left: 0.1rem;
+}
+
+.social-accounts a {
+    color: rgb(0, 237, 0);
+    font-size: 1.5rem;
+    transition: 0.3s;
+}
+
+.social-accounts a:hover {
+    transform: translateY(-3px);
+}
+
+
+@media (max-width: 1024px) {
+    .contact-container {
+        padding: 1rem;
+    }
+}
+
+@media (max-width: 766px) {
+
+    .contact-container {
+        flex-direction: column;
+        padding: 1rem;
+    }
+
+    .contact-form {
+        width: 100%;
+    }
+
+    .contact-link {
+        width: 100%;
+    }
+
+}
