@@ -13,7 +13,7 @@ const Contact = () => {
         <section className="contact" id="contact">
             <div className="contact-title">
                 <h1><span>Contact</span> Me</h1>
-                <p>hello i am khan</p>
+                <p>Mohammad Fahim Omary</p>
             </div>
             <div className="contact-container">
                 <div className="contact-form">
@@ -38,14 +38,14 @@ const Contact = () => {
                         <MdEmail className="link-icon" />
                         <div className="Email-info">
                             <h3>Email</h3>
-                            <p>Example@gmail.com</p>
+                            <p>mohammadfahimomary@gmail.com</p>
                         </div>
                     </div>
                     <div className="contact-link-card">
                         <MdPhone className="link-icon" />
                         <div className="phone-info">
                             <h3>Phone</h3>
-                            <p>0700000000</p>
+                            <p>0795741648</p>
                         </div>
                     </div>
                     <div className="contact-link-card social-card">
